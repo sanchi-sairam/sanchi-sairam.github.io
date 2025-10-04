@@ -36,7 +36,7 @@ This portfolio website is built with modern web standards (HTML, CSS, JavaScript
 
 ## Contact Me
 
-- **Email:** sairam.s7293@gmail.com  
+- **Email:** sanchisairam@gmail.com  
 - **LinkedIn:** [linkedin.com/in/sairam-sanchi](https://www.linkedin.com/in/sairam-sanchi)  
 - **Phone:** +91-8897884216  
 - **Location:** Bengaluru, India  
