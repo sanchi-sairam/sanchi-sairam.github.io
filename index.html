@@ -1,1 +1,117 @@
-Hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Ram Sanchi | AIML Engineer Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sai Ram Sanchi</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/images/icon.jpg" alt="Sai Ram Sanchi profile" class="profile-img">
+            <h1>Sai Ram Sanchi</h1>
+            <h2>AI/ML Engineer & Backend Developer</h2>
+            <p>Experienced in designing scalable ASR pipelines, deploying ML models, and building web-based tools for speech AI.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn primary">Hire Me</a>
+                <a href="#projects" class="btn secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Passionate AI/ML Engineer with 4+ years of experience in Speech AI, NLP, and backend development. Skilled in building and deploying end-to-end ASR systems, automating workflows, and integrating GenAI features into production pipelines.</p>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <div><strong>Languages:</strong> Python, JavaScript, HTML, CSS</div>
+            <div><strong>Frameworks/Libraries:</strong> Flask, FastAPI, ReactJS, Pandas, PySpark</div>
+            <div><strong>Databases:</strong> MySQL, MongoDB</div>
+            <div><strong>DevOps:</strong> Docker, Jenkins, GitHub Actions</div>
+            <div><strong>Other:</strong> Hugging Face Transformers, REST API, Microservices, SQL/NoSQL, Agile</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Bixby 3.0 ASR</h3>
+                <p>Speech recognition system similar to Google transcript for real-time and batch mode transcription. Reduced data preprocessing time by 60% using optimized pipelines and automation.</p>
+                <span>Python, Pandas, AWS, MySQL, Docker, Hugging Face</span>
+            </div>
+            <div class="project-card">
+                <h3>AEC ASR Error Correction</h3>
+                <p>Developed REST APIs for automated post-processing of ASR output, improving transcription readability and accuracy  using FastAPI and MongoDB for scalable inference serving.</p>
+                <span>Python, FastAPI, Docker, MongoDB</span>
+            </div>
+            <div class="project-card">
+                <h3>CACTAS 4.0</h3>
+                <p>Web app for managing audio transcription data, boosting team efficiency by 70%. Designed feature-rich UIs and built scalable Python-Flask backends.</p>
+                <span>Python, Flask, JavaScript, AWS, MySQL</span>
+            </div>
+            <div class="project-card">
+                <h3>IFL Logistics Dashboard</h3>
+                <p>Web + Android app for factory logistics, increasing production traceability and efficiency. Led deployments and microservices integration.</p>
+                <span>Python, Django, FastAPI, MySQL, AWS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section-bg">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="exp-item">
+                <h3>Senior Software Engineer (AIML) — Samsung R&D / Capgemini</h3>
+                <span>Sep 2022 – Present | Bengaluru, India</span>
+                <p>Building scalable ASR solutions and automating data pipelines for speech recognition models. Led deployment of large-scale ML systems, GenAI prototyping, and web tool development.</p>
+            </div>
+            <div class="exp-item">
+                <h3>Software Developer — Birlasoft Ltd</h3>
+                <span>Jul 2021 – Sep 2022</span>
+                <p>Developed backend systems for logistics and factory management web apps. Built REST APIs, automated deployments, and led QA/Prod releases.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: sairam.s7293@gmail.com</p>
+            <p>Phone: +91-7090984216</p>
+            <p>Location: Bengaluru, India</p>
+            <a href="https://www.linkedin.com/in/sairam-sanchi" target="_blank" class="btn secondary">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sai Ram Sanchi | AIML Engineer Portfolio</p>
+    </footer>
+</body>
+</html>
