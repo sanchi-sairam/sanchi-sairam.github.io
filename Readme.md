@@ -1,4 +1,4 @@
-# Sai Ram Sanchi - AI/ML Engineer Portfolio
+# Hi, I am Sai Ram Sanchi - AI/ML Engineer
 
 Welcome to my professional portfolio website repository. This site serves as my online presence to showcase my skills, experience, and projects as an AI/ML Engineer specializing in Speech AI, Natural Language Processing (NLP), and backend software development.
 
@@ -36,7 +36,7 @@ This portfolio website is built with modern web standards (HTML, CSS, JavaScript
 
 ## Contact Me
 
-- **Email:** sairam.s7293@gmail.com  
+- **Email:** sanchisairam@gmail.com  
 - **LinkedIn:** [linkedin.com/in/sairam-sanchi](https://www.linkedin.com/in/sairam-sanchi)  
 - **Phone:** +91-8897884216  
 - **Location:** Bengaluru, India  
