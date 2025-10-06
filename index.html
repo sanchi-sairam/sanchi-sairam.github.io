@@ -1,117 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Ram Sanchi | AIML Engineer Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <script defer src="assets/js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanchi Sai Ram | AI ML Engineer</title>
+  <link rel="shortcut icon" href="./assets/images/app-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">Sai Ram Sanchi</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/icon-img.png" alt="Sanchi Sai Ram" width="80" class="avatar-img">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Sanchi Sai Ram">Sanchi Sai Ram</h1>
+          <p class="title">AI ML & Backend Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:sanchisairam@gmail.com" class="contact-link">sanchisairam@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918897884216" class="contact-link">+91-8897884216</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">Aug 20, 1998</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bengaluru, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <!-- <p>
+            Experienced AI/ML Engineer and Backend Developer with 4+ years in designing scalable ASR pipelines, developing web-based tools and deploying ML models in production using Python, Fast API, AWS, and Docker. Adept at automating workflows, optimizing data pipelines, and integrating GenAI capabilities into end-to-end systems.
+          </p> -->
+          <p>
+            I’m Sairam Sanchi, a Python Developer and AI Engineer passionate about transforming raw data into intelligent, real-world applications.
+          </p>
+          <p>
+            My work blends AI/ML, speech recognition, and backend development, where I design and deploy scalable systems powered by FastAPI, Whisper, and LLM frameworks.
+          </p>
+          <p>
+            I love building solutions that not only perform — but also automate, analyze, and adapt.
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🧠 AI, Speech and Intelligent Systems</h4>
+                <p class="service-item-text">
+                  I specialize in building speech-driven AI systems that bridge the gap between human communication and machine understanding.
+                </p>
+                <!-- <p>
+                  My experience spans the entire ASR pipeline — from data preprocessing to deployment:
+                  <b>• Automatic Speech Recognition (ASR):</b>
+                  Developed and fine-tuned speech recognition models using OpenAI Whisper, NVIDIA NeMo, and Wav2Vec2.0, enabling accurate transcription across multiple accents and noisy conditions.
+                  <b>• Data Pipeline Development:</b>
+                  Created audio segmentation and alignment tools that automatically clean, split, and label audio–text pairs for training.
+                  <b>• ASR Error Correction:</b>
+                  Implemented post-processing NLP layers that correct transcription errors using language models, context-based spell correction, and beam-search decoding improvements.
+                  <b>• Model Packaging & Serving:</b>
+                  Built FastAPI inference services that handle large audio files asynchronously, support chunked uploads, and stream real-time transcription.
+                  <b>• Speech Summarization & MOMs:</b>
+                  Integrated LLM-based summarization systems that transform raw transcriptions into structured meeting minutes and action items.
+                </p> -->
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">💬 NLP, LLMs, and RAG Systems</h4>
+                <p class="service-item-text">
+                  My NLP and language model work focuses on making AI context-aware, retrieval-augmented, and personalized.
+                </p>
+                <!-- <p>
+                  <b>• Retrieval-Augmented Generation (RAG):</b>
+                  Developed custom RAG pipelines using LangChain + FAISS and Pinecone, allowing LLMs to search domain-specific knowledge bases before generating responses.
+                  <b>• Fine-Tuning and Adaptation:</b>
+                  Experimented with LLM fine-tuning and prompt optimization for tasks like question answering, summarization, and structured output generation.
+                  <b>• Document Intelligence:</b>
+                  Built systems that parse PDFs, transcripts, and emails — embedding and storing them for semantic retrieval via vector databases.
+                  <b>• Text Classification and NER:</b>
+                  Implemented lightweight NLP models for intent detection, entity extraction, and error correction in transcription pipelines.
+                  <b>• AI Chatbots:</b>
+                  Created domain-specific AI assistants for support and knowledge discovery — capable of referencing stored documents and generating factual responses.
+                </p> -->
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">⚙️ Backend Development & API Engineering</h4>
+                <p class="service-item-text">
+                  I’m deeply passionate about building robust, asynchronous, and scalable backends using FastAPI and Python.
+                </p>
+                <!-- <p>
+                  <b>• API Design & Architecture:</b>
+                  Designed RESTful APIs and microservices with structured endpoints, data validation (Pydantic), and token-based authentication (JWT).
+                  <b>• Async & Background Pipelines:</b>
+                  Leveraged async I/O for heavy audio processing tasks, and integrated background workers for long-running operations like transcription or model inference.
+                  <b>• Bot Development:</b>
+                  Built Microsoft Teams bots using FastAPI + Bot Framework that handle transcription, summarization, and automated posting.
+                  <b>• Automation Services:</b>
+                  Created scripts to schedule, trigger, and monitor AI workflows (dataset preprocessing, retraining, evaluation).
+                  <b>• Performance & Deployment:</b>
+                  Containerized applications with Docker, deployed on Azure and cloud servers, and maintained continuous integration via GitHub Actions.
+                </p> -->
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🤖 Automation, Data, and AI Integration</h4>
+                <p class="service-item-text">
+                  Automation is central to my workflow — I believe repetitive data operations should run seamlessly with minimal manual effort.
+                </p>
+                <!-- <p>
+                  • Built automated data pipelines that clean, label, and upload datasets for model retraining.
+                  • Created batch scripts for daily transcription jobs, report generation, and system monitoring.
+                  • Integrated AI models as modular services — allowing them to be reused across projects (e.g., transcription → summarization → RAG chatbot).
+                  • Combined speech recognition + LLMs to build intelligent, end-to-end assistants capable of understanding and acting on human speech.
+                </p> -->
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">📱 Mobile & Web App Development</h4>
+                <p class="service-item-text">
+                  Beyond backend and AI, I build clean, modern user interfaces to make data and models accessible to end users.
+                </p>
+                <!-- <p>
+                  <b>• React & React Native:</b>
+                  Developed responsive web dashboards and Android apps for stock analysis, AI utilities, and client reporting.
+                  <b>• API Integration:</b>
+                  Connected FastAPI endpoints to frontends for real-time communication, using WebSockets and REST APIs.
+                  <b>• UI/UX Focus:</b>
+                  Designed dashboards for data visualization, transcription monitoring, and AI workflow management using Tailwind CSS, Recharts, and Chart.js.
+                  <b>• Cross-Platform Consistency:</b>
+                  Ensured consistent data flow between mobile, web, and backend layers — enabling unified interfaces for AI-powered systems.
+                </p> -->
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="some body" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>XY</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI  ML & Backend Engineer</h4>
+              <span>Sep 2022 — Present</span>
+              <p class="timeline-text">
+                Built and deployed ASR systems combining ML, NLP, and FastAPI-based backend APIs to deliver real-time, high-accuracy speech-to-text transcriptions.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>Jul 2021 — Sep 2022</span>
+              <p class="timeline-text">
+                Developed and maintained web applications using Python, Flask, and Fast API ensuring robust backend functionality and seamless user experiences.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">My Skills</h3>
+          </div>
+          <ol class="skills-list">
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">Languages</h4>
+                <span>Python, JavaScript, HTML, CSS</span>
+            </li>
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">Frameworks & Libraries</h4>
+                <span>Flask, FastAPI, React JS, Tensorflow, Keras, PyTorch and etc</span>
+            </li>
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">Databases</h4>
+                <span>MySQL, MongoDB</span>
+            </li>
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">Version Control</h4>
+                <span>Git, SVN, GitHub, Gerrit, GitLab</span>
+            </li>
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">CI CD Tools</h4>
+                <span>Jenkins, Kubeflow, Docker</span>
+            </li>
+            <li class="skills-item">
+                <h4 class="h4 skills-item-title">Cloud Technologies</h4>
+                <span>AWS, GCP</span>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title" >Bachelor's of Technology from SITAMS</h4>
+              <span>2015 — 2019</span>
+              <p class="timeline-text">
+                Built a strong foundation in mechanical systems and problem-solving, while developing programming and analytical skills that inspired a shift toward AI-driven automation using Python and Machine Learning.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <!-- <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
             </ul>
-            <button class="menu-btn" onclick="toggleMenu()">☰</button>
-        </nav>
-    </header>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Loading_icon.gif" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Loading...</Loading></h3>
+                <p class="project-category">Loading...</p>
+              </a>
+            </li>
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Orizon</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fundo</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Brawlhalla</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">DSM.</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">MetaSpark</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Summary</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Manager</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li> -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li> -->
+          </ul>
+        </section>
+      </article>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Loading_icon.gif" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Loading...</p>
+                    <span class="dot"></span>
+                    <time datetime="NA"></time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Loading...</h3>
+                  <p class="blog-text">
+                    Loading...
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-    <section class="hero">
-        <div class="hero-content">
-            <img src="assets/images/icon.jpg" alt="Sai Ram Sanchi profile" class="profile-img">
-            <h1>Sai Ram Sanchi</h1>
-            <h2>AI/ML Engineer & Backend Developer</h2>
-            <p>Experienced in designing scalable ASR pipelines, deploying ML models, and building web-based tools for speech AI.</p>
-            <div class="hero-btns">
-                <a href="#contact" class="btn primary">Hire Me</a>
-                <a href="#projects" class="btn secondary">View Projects</a>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-        </div>
-    </section>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31130.073157902514!2d77.52404927661133!3d12.971598708099736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c5f6a6b7%3A0x7e4c8b5f5e8e4e0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1696061234567!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy" allowfullscreen=""></iframe>
+          </figure>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            Passionate AI/ML Engineer with 4+ years of experience in Speech AI, NLP, and backend development. Skilled in building and deploying end-to-end ASR systems, automating workflows, and integrating GenAI features into production pipelines.</p>
-    </section>
-
-    <section id="skills" class="skills section-bg">
-        <h2>Technical Skills</h2>
-        <div class="skills-list">
-            <div><strong>Languages:</strong> Python, JavaScript, HTML, CSS</div>
-            <div><strong>Frameworks/Libraries:</strong> Flask, FastAPI, ReactJS, Pandas, PySpark</div>
-            <div><strong>Databases:</strong> MySQL, MongoDB</div>
-            <div><strong>DevOps:</strong> Docker, Jenkins, GitHub Actions</div>
-            <div><strong>Other:</strong> Hugging Face Transformers, REST API, Microservices, SQL/NoSQL, Agile</div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <h3>Bixby 3.0 ASR</h3>
-                <p>Speech recognition system similar to Google transcript for real-time and batch mode transcription. Reduced data preprocessing time by 60% using optimized pipelines and automation.</p>
-                <span>Python, Pandas, AWS, MySQL, Docker, Hugging Face</span>
-            </div>
-            <div class="project-card">
-                <h3>AEC ASR Error Correction</h3>
-                <p>Developed REST APIs for automated post-processing of ASR output, improving transcription readability and accuracy  using FastAPI and MongoDB for scalable inference serving.</p>
-                <span>Python, FastAPI, Docker, MongoDB</span>
-            </div>
-            <div class="project-card">
-                <h3>CACTAS 4.0</h3>
-                <p>Web app for managing audio transcription data, boosting team efficiency by 70%. Designed feature-rich UIs and built scalable Python-Flask backends.</p>
-                <span>Python, Flask, JavaScript, AWS, MySQL</span>
-            </div>
-            <div class="project-card">
-                <h3>IFL Logistics Dashboard</h3>
-                <p>Web + Android app for factory logistics, increasing production traceability and efficiency. Led deployments and microservices integration.</p>
-                <span>Python, Django, FastAPI, MySQL, AWS</span>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="experience section-bg">
-        <h2>Experience</h2>
-        <div class="timeline">
-            <div class="exp-item">
-                <h3>Senior Software Engineer (AIML) — Samsung R&D / Capgemini</h3>
-                <span>Sep 2022 – Present | Bengaluru, India</span>
-                <p>Building scalable ASR solutions and automating data pipelines for speech recognition models. Led deployment of large-scale ML systems, GenAI prototyping, and web tool development.</p>
-            </div>
-            <div class="exp-item">
-                <h3>Software Developer — Birlasoft Ltd</h3>
-                <span>Jul 2021 – Sep 2022</span>
-                <p>Developed backend systems for logistics and factory management web apps. Built REST APIs, automated deployments, and led QA/Prod releases.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn primary">Send Message</button>
-        </form>
-        <div class="contact-info">
-            <p>Email: sairam.s7293@gmail.com</p>
-            <p>Phone: +91-7090984216</p>
-            <p>Location: Bengaluru, India</p>
-            <a href="https://www.linkedin.com/in/sairam-sanchi" target="_blank" class="btn secondary">LinkedIn</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Sai Ram Sanchi | AIML Engineer Portfolio</p>
-    </footer>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
